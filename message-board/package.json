@@ -2,6 +2,7 @@
   "name": "message-board",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://127.0.0.1:3001/",
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
