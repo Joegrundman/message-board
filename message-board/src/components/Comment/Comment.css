@@ -1,0 +1,7 @@
+.Comment-details {
+    border-bottom: 1px solid darkslategray;
+}
+
+.Comment-details > span {
+    padding: 10px;
+} 

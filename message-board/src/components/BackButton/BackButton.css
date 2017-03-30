@@ -1,0 +1,31 @@
+.BackButton {
+    position: absolute;
+    border: 0;
+    top: 70px;
+    left: 20px;
+    background-color: #FFB74D;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #333;
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 550px) {
+    .BackButton {
+        top: 40px;
+        left: 40px; 
+    } 
+}
+
+.BackButton:hover {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.BackButton:focus {
+    box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
